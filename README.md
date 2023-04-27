@@ -1,4 +1,4 @@
-# responsive-slider
+# rsponsive-slider
 here is the responsive and touchable slider created by swiper slider
 
 firs thing we should do is past the css link in the line blow in the head section
