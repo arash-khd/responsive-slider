@@ -79,6 +79,33 @@ var swiper = new Swiper(".mySwiper", {
 });
 ```
 
+there is some css that need to our slider working write and more beauty
+
+```css
+/* slider css */
+.swiper {
+  height: 300px;
+  padding: 1px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.swiper img {
+  background-size: cover;
+}
+
+.swiper-button-prev , .swiper-button-next {
+  color: #0000009e;
+  font-size: 10px !important;
+}
+.swiper-pagination-bullet-active{
+  background: #0000009e;
+}
+/* end slider css */
+```
+
 
 
 
