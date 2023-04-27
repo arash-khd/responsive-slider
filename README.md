@@ -1,23 +1,24 @@
 # responsive-slider
-here is the rsponsive and touchable slider created by swiper slider
+here is the responsive and touchable slider created by swiper slider
 
-firs thing we should do is past the css link line blow in the head section
+firs thing we should do is past the css link in the line blow in the head section
 ```html
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 ```
-then we linking our script before body tag
+then we also linking our javascript right before body tag
 ```html
    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 ```
 **there is no need to link jquery**
 
-the next to thing we shoud do is creating the file name slider,js in js folder like always (you can use your favorit name)
+the next to thing we shoud do is creating the file name slider to write our js codes for slider for control our options (you can use your favorit name)
+write after he befor js link we add this code
 
 ```html
  <script src="js/slider.js"></script>
 ```
 
-after header section we write down our html
+after that in header section we write our html for slider
 
 ```html
     <section class="slider">
@@ -44,7 +45,8 @@ after header section we write down our html
     </section>
 ```
 
-then we going in js folder in the slider.js file and write this code
+then we going in js folder in the slider.js file and write this code for slider options
+((  centeredSlides: true should remove in order to slider working better
 
 **some additional codes added in order to slider working great in all screen and sizes**
 **the slider is 3 section in screen sizes bigger than 769px (pc size) and is 1 section in screen sizes with lesser than 769px (mobile size)
